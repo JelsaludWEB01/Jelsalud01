@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contratos - Jelsalud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="contracts-container">
+    <img src="assets/images/Logo.jpg" alt="Logo Jelsalud 1.0" class="logo">
+        <div class="header">
+            <h2>Lista de Contratos</h2>
+            <a href="create-contract.html" class="button">Crear Nuevo Contrato</a>
+        </div>
+        
+        <div class="search-bar">
+            <label for="search">Buscar Contrato:</label>
+            <input type="text" id="search" placeholder="Buscar por numero de contrato o nombre del contratista">
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th># Contrato</th>
+                    <th>Contratista</th>
+                    <th>Tipo de Contrato</th>
+                    <th>Fecha de Inicio</th>
+                    <th>Fecha de Finalizacion</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Fila de ejemplo, se llenara con datos dinamicos -->
+                <tr>
+                    <td>#1234</td>
+                    <td>Juan Perez</td>
+                    <td>Contrato Laboral</td>
+                    <td>2024-01-01</td>
+                    <td>2024-12-31</td>
+                    <td>
+                        <a href="contract-details.html?id=1234" class="button">Ver Detalles</a>
+                        <button class="button delete">Eliminar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>#5678</td>
+                    <td>Maria Gomez</td>
+                    <td>Contrato de Servicios</td>
+                    <td>2024-02-01</td>
+                    <td>2025-01-31</td>
+                    <td>
+                        <a href="contract-details.html?id=5678" class="button">Ver Detalles</a>
+                        <button class="button delete">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

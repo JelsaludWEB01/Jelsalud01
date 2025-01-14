@@ -1,0 +1,121 @@
+/* Estilos generales para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor de formularios y páginas */
+.login-container, .dashboard, .contract-form, .memorandum-form, .certificate-form,
+.contracts-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Logo */
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Estilos de los formularios de entrada */
+input[type="text"], input[type="date"], input[type="email"], input[type="password"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón de crear nuevo contrato */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Barra de búsqueda */
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f7f7f7;
+}
+
+/* Estilo de los botones de acción */
+button.delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Encabezado de la lista de contratos */
+.header h2 {
+    text-align: center;
+}
+
+/* Ajuste en el contenedor de contratos */
+.contracts-container {
+    max-width: 900px; /* Especificamos un tamaño máximo mayor para este contenedor */
+}
+
+/* Ajuste de los botones de acción */
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    font-size: 16px;
+}

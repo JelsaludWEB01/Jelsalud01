@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Memorando - Jelsalud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="memorandum-form">
+        <img src="assets/images/Logo.jpg" alt="Logo Jelsalud 1.0" class="logo">
+        <h2>Crear Memorando</h2>
+        <form action="memorandums.html" method="post">
+            <label for="memorandum-type">Tipo de Memorando</label>
+            <input type="text" id="memorandum-type" placeholder="Tipo de memorando" required>
+            
+            <label for="memo-date">Fecha</label>
+            <input type="date" id="memo-date" required>
+            
+            <label for="memo-recipient">Destinatario</label>
+            <input type="text" id="memo-recipient" placeholder="Destinatario del memorando" required>
+            
+            <button type="submit">Guardar Memorando</button>
+        </form>
+    </div>
+</body>
+</html>

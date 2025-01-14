@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Contrato - Jelsalud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="contract-form">
+    <img src="assets/images/Logo.jpg" alt="Logo Jelsalud 1.0" class="logo">
+        <h2>Crear Contrato</h2>
+        <form action="contracts.html" method="post">
+            <label for="contract-type">Tipo de Contrato</label>
+            <input type="text" id="contract-type" placeholder="Tipo de contrato" required>
+            
+            <label for="start-date">Fecha de Inicio</label>
+            <input type="date" id="start-date" required>
+            
+            <label for="end-date">Fecha de Finalizacion</label>
+            <input type="date" id="end-date" required>
+            
+            <label for="contractor-name">Nombre del Contratista</label>
+            <input type="text" id="contractor-name" placeholder="Nombre del contratista" required>
+            
+            <label for="amount">Monto del Contrato</label>
+            <input type="number" id="amount" placeholder="Monto acordado" required>
+            
+            <button type="submit">Guardar</button>
+            <button type="button">Generar PDF</button>
+        </form>
+    </div>
+</body>
+</html>

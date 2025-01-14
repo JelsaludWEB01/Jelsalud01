@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar Certificacion Laboral - Jelsalud</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="certificate-form">
+    <img src="assets/images/Logo.jpg" alt="Logo Jelsalud 1.0" class="logo">
+        <h2>Generar Certificacion Laboral</h2>
+        <form action="certificates.html" method="post">
+            <label for="contractor-name">Nombre del Contratista</label>
+            <input type="text" id="contractor-name" placeholder="Nombre completo" required>
+            
+            <label for="start-date">Fecha de Inicio</label>
+            <input type="date" id="start-date" required>
+            
+            <label for="end-date">Fecha de Finalizacion</label>
+            <input type="date" id="end-date" required>
+            
+            <label for="position">Cargo</label>
+            <input type="text" id="position" placeholder="Cargo del contratista" required>
+            
+            <button type="submit">Generar Certificacion</button>
+        </form>
+    </div>
+</body>
+</html>
